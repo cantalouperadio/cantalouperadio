@@ -1,0 +1,81 @@
+# Git ignore file
+# Last updated: 2015-12-06, dwyatt
+
+# Mac OS X Finder
+.DS_Store
+
+# Xcode (and ancestors) per-user config (very noisy, and not relevant)
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# Xcode 4 and later
+xcuserdata/
+*.xcscmblueprint
+
+# Generated files
+*.o
+*.pyc
+*.hi
+
+# Build products
+build/
+*.[oa]
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+.cvs
+.cvswrappers
+.cvs*
+
+# Automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+# Python modules
+MANIFEST
+dist/
+build/
+
+# Eagle backup files and gerber output files
+*.b#*
+*.s#*
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.dri
+*.gpi
+
+# we can ignore zip files that we use for a lot of distribution
+*.zip
+
+# ignore MPLAB X generated project files
+**/nbproject/Makefile-default.mk
+**/nbproject/Makefile-impl.mk
+**/nbproject/Makefile-local-default.mk
+**/nbproject/Makefile-variables.mk
+**/nbproject/Makefile-genesis.properties
+**/nbproject/Package-default.bash
+
+# ignore everything in private inside nbproject
+**/nbproject/private/
+/PIC/CRBootloader.X/nbproject/private/
+/PIC/M2.X/nbproject/private/
+/PIC/MDeckBA.X/nbproject/private/
+/PIC/MDeckBB.X/nbproject/private/
+/PIC/MDeckBAProgrammer.X/nbproject/private/
