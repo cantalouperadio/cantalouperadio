@@ -34,8 +34,6 @@ There are 3 custom PCBs to produce, 2 to assemble and one custom cable:
 * 12VDC 2x5.5mm barrel jack power supply for programmer board
 * MicroUSB cable for BT module programming or debugging
 
-Once you've procurred the cutom PCBs and assembled them, asssembled, the custom wire harness, and assembled the other hardware needed, you're ready to move on to the per-board programming process
-
 ### Assembly
 
 Once you've procurred all the required hardware, assembly is non-trivial but straightforward using the BOMs and part IDs printed on the boards. The trickiest assembly steps will probably be the 2 fine-pitched SMD ICs on the programmer board, but with some flux it should be fine.
